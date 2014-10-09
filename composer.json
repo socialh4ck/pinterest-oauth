@@ -1,0 +1,21 @@
+{
+    "name": "socialh4ck/pinterest-oauth",
+    "description": "Pinterest PHP Package for Laravel 4",
+    "keywords": ["Pinterest", "laravel", "laravel4"],
+    "authors": [
+        {
+            "name": "socialh4ck",
+            "email": "eflorez@socialh4ck.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Socialh4ck\\Pinterest": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
